@@ -6,7 +6,7 @@ Scrapebet provides a real-time API with sports events, stats and mainly, betting
 
 ### Getting your token
 
-The first thing you need to know is how [authentication.md](references/authentication.md "mention") works and generate your first token. This is a mandatory step to access the endpoints.
+The first thing you need to know is how [Authentication](references/authentication) works and generate your first token. This is a mandatory step to access the endpoints.
 
 ### Before making your first request
 
