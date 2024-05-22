@@ -36,6 +36,8 @@ Don't share your token publicly! You **must** keep it on your server side.
 <details>
 <summary>PHP</summary>
 
+### PHP
+
 ```php
 <?php
 
@@ -80,6 +82,8 @@ print_r($result);
 <details>
 <summary>JavaScript</summary>
 
+### JavaScript
+
 ```JavaScript
 const axios = require("axios");
 
@@ -104,11 +108,11 @@ async function getEndpoint() {
 getEndpoint();
 ```
 
-
-
 </details>
 <details>
 <summary>Python</summary>
+
+### Python
 
 ```Python
 import requests
@@ -140,11 +144,11 @@ except requests.exceptions.RequestException as e:
     print(f"Error fetching data: {e}")
 ```
 
-
-
 </details>
 <details>
 <summary>Go</summary>
+
+### Go
 
 ```Go
 package main
@@ -209,4 +213,5 @@ func main() {
 }
 
 ```
+
 </details>
