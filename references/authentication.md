@@ -104,7 +104,7 @@ async function getEndpoint() {
 getEndpoint();
 ```
 
-### Python
+
 
 </details>
 <details>
@@ -140,7 +140,7 @@ except requests.exceptions.RequestException as e:
     print(f"Error fetching data: {e}")
 ```
 
-### Go
+
 
 </details>
 <details>
