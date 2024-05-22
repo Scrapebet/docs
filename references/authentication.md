@@ -79,7 +79,6 @@ print_r($result);
 </details>
 <details>
 <summary>JavaScript</summary>
-### JavaScript
 
 ```JavaScript
 const axios = require("axios");
