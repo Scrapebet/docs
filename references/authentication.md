@@ -29,7 +29,8 @@ Don't share your token publicly! You **must** keep it on your server side.
 | `TOKEN_FORMAT_INCORRECT` | <p>The authentication header was set but the value format is not valid.</p><p></p><p>It should be a 32-length alphanumeric string. </p> |
 | `TOKEN_NOT_VALID`        | If the token format is valid but we can't still authenticate it may not be vinculated with any account.                                 |
 
-## Make your first request
+
+### Make your first request
 
 ### API connection examples in different languages
 
