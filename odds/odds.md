@@ -21,6 +21,38 @@ The result of this endpoint will include different nested objects with different
   <div class="card-body">
     <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> https://api.scrapebet.com/api/v1/odds?event_id=[id]</h3>
     <div class="desc lead">Retrieve available markets with a sport ID.</div>
+
+<details>
+<summary>Example of a response</summary>
+
+```json
+
+"result": [
+    {
+      "market_id": "43f397fd304e004eec7b672d",
+      "market": "Half Time/Full Time",
+      "odds": [
+        {
+          "short_name": "X/2",
+          "name": "Draw/Olympiacos",
+          "bookmakers": [
+            {
+              "odd_id": "665d79b584879ebe7caa1ab6",
+              "bookmaker_id": "bet365",
+              "created": "2024-06-03T08:07:15+00:00",
+              "last_update": "2024-06-04T09:15:59+00:00",
+              "first": 36,
+              "now": 34
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+```
+</details>
+
   </div>
 </div>
 

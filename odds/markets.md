@@ -17,3 +17,27 @@ For example, to fetch all the markets in soccer, use:
 `https://api.scrapebet.com/v1/markets?sport_id=`5cebb6ef21232f1018004419\&pretty=1
 
 The answer contains a nested array with the `market_id`, the market `name`, and information about `bookmakers` available and their update times.
+
+
+<details>
+<summary>Example of a response</summary>
+
+```json
+{
+  "markets": [
+    {
+      "market_id": "5cebb6ef21232f1018004419",
+      "name": "Match Result",
+      "bookmakers": [
+        {
+          "bookmaker_id": "5cebb6ef21232f1018004419",
+          "name": "Bet365",
+          "last_update": "2019-05-27T10:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>

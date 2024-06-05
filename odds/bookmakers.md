@@ -9,6 +9,37 @@ Before setting up your API workflow, you should know the bookmakers integrated w
   <div class="card-body">
     <h3>[link] https://api.scrapebet.com/v1/bookmakers</h3>
     <div class="desc lead">Retrieves the list of all available bookmakers.</div>
+
+<details>
+<summary>Example of a response</summary>
+
+```json
+{
+  "bookmakers": [
+    {
+      "id": "5cebb6ef21232f1018004419",
+      "running": true,
+      "name": {
+        "short": "Bet365",
+        "long": "Bet365"
+      },
+      "update": {
+        "last": "2019-05-27T10:00:00.000Z",
+        "average_time": 300
+      },
+      "exange": false,
+      "has_live_matches": false,
+      "available_countries":
+      [
+        "MX",
+        "ES"
+      ],
+    }
+  ]
+}
+```
+</details>
+
   </div>
 </div>
 

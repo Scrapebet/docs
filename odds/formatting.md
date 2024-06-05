@@ -42,3 +42,5 @@ Note that format types are **case sensitive**.
 | ----------------------- | --------------------------------------------------------------- |
 | `ODDS_FORMAT_INCORRECT` | The format is not valid. Choose between one of the types above. |
 
+
+
